@@ -40,6 +40,17 @@ weight = [55.03, 60.11, 85.78, 60.22]
 ```
 
 To calculate the BMI of each person, you would assume that `weight / height ** 2` would work, right?  
-The calculation throws an error: `TypeError: unsupported operand type(s) for ** or pow(): 'list' and 'int'`
-  
-Now lets perform the same operation with NumPy arrays.
+The calculation throws an error: `TypeError: unsupported operand type(s) for ** or pow(): 'list' and 'int'`  
+
+### Using NumPy arrays
+
+```py
+
+np.array(weight) / np.array(height) ** 2
+
+# Output
+array([23.50805246, 22.90428288, 28.33267274, 22.11937557])
+
+```
+
+Converting both weight and height to numpy arrays enables us to perform element-wise mathematical operations.
