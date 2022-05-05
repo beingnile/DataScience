@@ -96,3 +96,7 @@ print(list_c)
 [2 4 6 8]
 
 ```
+
+### Subsetting NumPy arrays
+
+We use square brackets to access both NumPy arrays and lists.
