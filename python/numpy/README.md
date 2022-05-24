@@ -1,4 +1,4 @@
-# NumPy
+#NumPy
 
 NumPy, or Numerical Python, is a python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 
@@ -97,6 +97,5 @@ print(list_c)
 
 ```
 
-### Subsetting NumPy arrays
-
-We use square brackets to access both NumPy arrays and lists.
+More information on NumPy and it's cool features can be found on this [notebook](./notebook.ipynb)
+I created the notebook while learning the Data Science track on DataCamp
