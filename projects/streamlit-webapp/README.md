@@ -1,4 +1,4 @@
-# Data Science Web App
+# Streamlit Dashboard
 
-Data visualization is an important aspect in Data Science.  
-In this project, I build a Data Science Web Applicatin using Python and [streamlit](https://streamlit.io/).  
+This is a Stremlit dashboard that can be used to analyze motor vehicle collisions in NYC.  
+> Data Source: [NYC OpenData] (https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/data)
